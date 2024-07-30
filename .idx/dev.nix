@@ -6,6 +6,7 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     pkgs.go
+    pkgs.awscli2
   ];
   # Sets environment variables in the workspace
   env = {};
